@@ -1,0 +1,11 @@
+Looking in indexes: https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+Collecting sip
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/d0/99/1c6ff1a3dbf99fe0d69f9eac9995da88aac106c8c64755b940799bcdf2d9/sip-6.11.1-py3-none-any.whl (2.6 MB)
+Collecting packaging>=24.2 (from sip)
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl (66 kB)
+Requirement already satisfied: setuptools>=75.8.1 in /home/kang/.conda/envs/yolo/lib/python3.9/site-packages (from sip) (80.8.0)
+Collecting tomli (from sip)
+  Using cached https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/6e/c2/61d3e0f47e2b74ef40a68b9e6ad5984f6241a942f7cd3bbfbdbd03861ea9/tomli-2.2.1-py3-none-any.whl (14 kB)
+Installing collected packages: tomli, packaging, sip
+
+Successfully installed packaging-25.0 sip-6.11.1 tomli-2.2.1
