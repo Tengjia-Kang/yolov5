@@ -93,7 +93,9 @@ class CometLogger:
             "log_env_gpu": True,
             "log_env_cpu": True,
             "project_name": COMET_PROJECT_NAME,
-        } | experiment_kwargs
+        }
+
+        self.default_experiment_kwargs.update(experiment_kwargs)
         self.experiment = self._get_experiment(self.comet_mode, run_id)
         self.experiment.set_name(self.opt.name)
 
