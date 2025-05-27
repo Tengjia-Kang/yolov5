@@ -5,10 +5,7 @@ Validate a trained YOLOv5 detection model on a detection dataset.
 Usage:
     $ python val.py --weights yolov5s.pt --data coco128.yaml --img 640
 
-Usage - formats:
-    $ python val.py --weights yolov5s.pt                 # PyTorch
-                              yolov5s.torchscript        # TorchScript
-                              yolov5s.onnx               # ONNX Runtime or OpenCV DNN with --dnn
+Usage - formats    $ python val.py --weights yolov5s.pt                 # PyTorch
                               yolov5s_openvino_model     # OpenVINO
                               yolov5s.engine             # TensorRT
                               yolov5s.mlpackage          # CoreML (macOS-only)
